@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "461820915276",
+    "firebase_url": "https://soleeklabandroidapp.firebaseio.com",
+    "project_id": "soleeklabandroidapp",
+    "storage_bucket": "soleeklabandroidapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461820915276:android:6df0528ca1b9f161",
+        "android_client_info": {
+          "package_name": "com.example.r3tr0.countriesguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "461820915276-akdgu1vbmntpnsjq8julqgitu823ovba.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAUvYx3z7WooVbv9K6Owti16YGJaGS1PA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
