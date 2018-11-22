@@ -12,3 +12,8 @@ The Java part is separated into 3 parts :
 2) The interactors : The classes which deals with the background tasks(managers), This layer contains the classes which work in the background then deliver it's results to the UI to be viewed.
 
 3) The UI : Where the Activity classes and adapters exists, This layer is for the UI thread where the data is brought from the interactors to be displayed.
+
+# New updates
+
+* Added Retrofit library and implemented the api interface and clients for better API fetching.
+* Updated the activities and the view model for using the new classes.
