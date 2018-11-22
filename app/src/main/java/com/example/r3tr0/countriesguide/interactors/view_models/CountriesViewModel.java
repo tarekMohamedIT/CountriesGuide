@@ -17,19 +17,19 @@ import java.util.List;
  * will happen.
  */
 public class CountriesViewModel extends AndroidViewModel {
-    CountriesManager manager;
-    LiveData<List<Country>> countries;
-
+    private CountriesManager manager;
+    private LiveData<List<Country>> countries;
 
     public CountriesViewModel(@NonNull Application application) {
         super(application);
-        manager = CountriesManager.getInstance();
+        manager = CountriesManager.getInstance(application);
         countries = manager.getCountries();
     }
 
     public LiveData<List<Country>> getCountries() {
         return countries;
     }
+
 
     public void setSelectedCountry(int position){
         manager.setSelectedCountry(position);
@@ -38,4 +38,6 @@ public class CountriesViewModel extends AndroidViewModel {
     public int getSelectedCountry(){
         return manager.getSelectedCountry();
     }
+
+
 }

@@ -20,23 +20,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".ui.activities.MainActivity" />
-
         <activity
             android:name=".ui.activities.InformationActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-
         <activity
             android:name=".ui.activities.LoginActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-
         <activity
             android:name=".ui.activities.SignUpActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
-
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity android:name=".ui.activities.BaseAuthActivity" />
-
+        <activity android:name=".ui.activities.CharsActivity"></activity>
     </application>
 
 </manifest>

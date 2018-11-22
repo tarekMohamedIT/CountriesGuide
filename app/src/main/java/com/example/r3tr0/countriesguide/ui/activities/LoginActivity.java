@@ -13,7 +13,6 @@ import com.example.r3tr0.countriesguide.core.Regex;
 import com.example.r3tr0.countriesguide.core.events.OnFirebaseAuthProcessEndListener;
 import com.example.r3tr0.countriesguide.core.models.User;
 import com.example.r3tr0.countriesguide.interactors.managers.SignInManager;
-import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
 public class LoginActivity extends BaseAuthActivity {
@@ -50,7 +49,7 @@ public class LoginActivity extends BaseAuthActivity {
                         .setNeutralButton("Ok", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
-                                startActivity(new Intent(LoginActivity.this, MainActivity.class));
+                                startActivity(new Intent(LoginActivity.this, CharsActivity.class));
                                 finish();
                             }
                         })
